@@ -1,0 +1,101 @@
+body {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.125rem;
+}
+header {
+    color:black;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav li {
+    text-decoration: underline;
+    margin: 0 5rem;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    display: flex;
+    background-image: url("resources/background.jpg");
+    height: 400px;
+    margin-top: 30px;
+}
+
+.box .description {
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+
+.description h1 {
+    font-size: 2.9rem;
+}
+
+.description h4 {
+    font-size: 1.5rem;
+}
+
+.box2 {
+    display: block;
+    text-align: center;
+}
+
+.box2 h1 {
+    margin-top: 50px;
+}
+
+.box2 p {
+    font-size: 1.3rem;
+}
+
+.box2 .bunch {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.box2 img {
+    width: 300px;
+    height: 400px;
+}
+
+.box3 {
+    display: block;
+    text-align: center;
+}
+.box3 .employee {
+    display: inline-block;
+    margin: 2rem;
+}
+.box3 img {
+    width: 300px;
+    height: 400px;
+}
+
+.staff {
+    background-image: url(resources/background.jpg);
+    color: white;
+    font-size: 1.3rem;
+}
+footer {
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 2.9rem;
+}
+
+footer p {
+    font-size: 1.3rem;
+}
